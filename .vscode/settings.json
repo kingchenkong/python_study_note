@@ -1,0 +1,19 @@
+{
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands",
+    "[python]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        // "editor.defaultFormatter": "eeyore.yapf",
+        "editor.defaultFormatter": "ms-python.python",
+        // "editor.codeActionsOnSave": {
+        //     "source.organizeImports.ruff": "explicit"
+        // },  
+        "editor.formatOnType": false,
+        "python.formatting.provider": "yapf",
+        "python.formatting.yapfArgs": [
+            "--style={column_limit=100}"
+        ],
+    },
+}
